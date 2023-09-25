@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="radio.css">
+    <title>Meu Reprodutor de Música</title>
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="album-cover">
+                <img src="img8.png" alt="Music1">
+            </div>
+            <div class="song-info">
+                <h2>Nome da Música</h2>
+                <p>Artista</p>
+            </div>
+            <audio id="audio-player" controls>
+                <source src="song.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul>
+                <li data-song="Music1.mp3">plenka x boulevard depo - white trash x nightmare</li>
+                <li data-song="Music2.mp3">BoyWithUke - Trauma</li>
+                <li data-song="Music3.mp3">Ticking Away com Grabbitz & bbno$</li>
+				<li data-song="Music4.mp3">ECLIPSE PHONK</li>
+				<li data-song="Music5.mp3">SO TIRED 2</li>
+				<li data-song="Music6.mp3">shady MOON - destiny w/ ciscaux</li>
+				<li data-song="Music7.mp3">glichery "Heavenly Key"</li>
+				<li data-song="Music8.mp3">Estrelar (Baht Remix;Slowed Versión)</li>
+				<li data-song="Music9.mp3">IN THE CLUB (phonk)</li>
+				<li data-song="Music10.mp3">paranoia - kentenshi</li>
+            </ul>
+        </div>
+    </div>
+    <script src="radio.js"></script>
+</body>
+</html>
