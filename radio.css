@@ -67,3 +67,22 @@ li {
 li:hover {
     color: #1DB954;
 }
+
+
+.player-controls{
+      padding: 20px;
+      width:80%;
+      align-items: center;
+      
+}
+
+button{
+     background-color: #f31818;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgb(250, 2, 2);
+     font-family: Arial,
+     sans-serif;
+     background-color: #ffffff;
+     text-align: center;
+
+}
