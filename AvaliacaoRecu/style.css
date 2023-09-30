@@ -1,0 +1,8 @@
+body {
+    background-color: #eee;
+    width: 600px;
+	margin: 10px auto;
+}
+fieldset{
+    border: 1px solid black;
+}
